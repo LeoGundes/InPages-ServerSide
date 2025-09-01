@@ -11,7 +11,8 @@
     },
     {
         "id": "3",
-        "nome": "O Programador Pragmático"
+        "nome": "O Programador Pragmático",
+        "src": "/imagens/livroProgPragm.jpg"
     },
     {
         "id": "4",
