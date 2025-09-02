@@ -1,4 +1,4 @@
-const e = require('express');
+const express = require('express');
 const { getTodosLivros, getLivroPorID, insereLivro, modificaLivro, apagaLivro } = require('../services/livro');
 
 function getLivros(req, res) {

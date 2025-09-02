@@ -1,17 +1,25 @@
 const express = require("express")
+const cors = require("cors")
+
 const rotaLivro = require("./rotas/livro")
 const rotaFavorito = require("./rotas/favoritos")
 const rotaUsuario = require("./rotas/usuario")
 
-const cors = require("cors")
+const rotaReviews = require("./rotas/Reviews")
+const rotaPostagem = require("./rotas/postagem")
+
 
 const app = express()
 app.use(express.json())
 app.use(cors({origin: "*"}))
 
+
 app.use('/livros', rotaLivro)
 app.use('/favoritos', rotaFavorito)
 app.use('/usuarios', rotaUsuario)
+
+app.use('/reviews', rotaReviews)
+app.use('/postagens', rotaPostagem)
 
 const port = 8000
 

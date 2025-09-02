@@ -2,6 +2,42 @@
   {
     "nome": "Leonardo",
     "email": "leogundes18@gmail.com",
-    "senha": "123"
+    "senha": "123",
+    "favoritos": [
+      {
+        "id": "3",
+        "nome": "O Programador Pragmático",
+        "src": "/imagens/livroProgPragm.jpg"
+      }
+    ],
+    "seguidores": [],
+    "seguidos": [
+      "leonardocark@gmail.com"
+    ]
+  },
+  {
+    "nome": "FagLeo",
+    "email": "leonardocark@gmail.com",
+    "senha": "123",
+    "favoritos": [
+      {
+        "id": "2",
+        "nome": "Domain-Driven Design",
+        "src": "/imagens/LivroDDD.jpg"
+      },
+      {
+        "id": "3",
+        "nome": "O Programador Pragmático",
+        "src": "/imagens/livroProgPragm.jpg"
+      },
+      {
+        "id": "6",
+        "nome": "Padrões de Projetos"
+      }
+    ],
+    "seguidores": [
+      "leogundes18@gmail.com"
+    ],
+    "seguidos": []
   }
 ]

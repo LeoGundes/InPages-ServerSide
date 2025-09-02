@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1756822503280",
+    "livroId": "5",
+    "usuario": "FagLeo",
+    "texto": "Um livro introdutório e de fácil leitura que ajuda a entender como funciona a estrutura de um algoritmo",
+    "nota": 5,
+    "data": "2025-09-02T14:15:03.281Z"
+  },
+  {
+    "id": "1756822781028",
+    "livroId": "5",
+    "usuario": "Leonardo",
+    "texto": "Muito bom esse livro, me ajudou bastante em algumas cadeiras na faculdade e também no trabalho",
+    "nota": 5,
+    "data": "2025-09-02T14:19:41.028Z"
+  },
+  {
+    "id": "1756823441628",
+    "livroId": "5",
+    "usuario": "Leonardo",
+    "texto": "Livro ótimo",
+    "nota": 5,
+    "data": "2025-09-02T14:30:41.628Z"
+  },
+  {
+    "id": "1756823454245",
+    "livroId": "5",
+    "usuario": "Leonardo",
+    "texto": "um dos melhores",
+    "nota": 5,
+    "data": "2025-09-02T14:30:54.245Z"
+  },
+  {
+    "id": "1756823467242",
+    "livroId": "5",
+    "usuario": "Leonardo",
+    "texto": "achei basico",
+    "nota": 3,
+    "data": "2025-09-02T14:31:07.243Z"
+  }
+]

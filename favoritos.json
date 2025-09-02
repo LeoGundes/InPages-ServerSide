@@ -1,1 +1,7 @@
-[{"id":"1","nome":"Cracking the Coding Interview","src":"/imagens/LivroCrackCode.jpg"},{"id":"2","nome":"Domain-Driven Design","src":"/imagens/LivroDDD.jpg"},{"id":"3","nome":"O Programador Pragmático","src":"/imagens/livroProgPragm.jpg"},{"id":"1","nome":"Cracking the Coding Interview","src":"/imagens/LivroCrackCode.jpg"},{"id":"2","nome":"Domain-Driven Design","src":"/imagens/LivroDDD.jpg"},{"id":"3","nome":"O Programador Pragmático","src":"/imagens/livroProgPragm.jpg"}]
+[
+  {
+    "id": "3",
+    "nome": "O Programador Pragmático",
+    "src": "/imagens/livroProgPragm.jpg"
+  }
+]
