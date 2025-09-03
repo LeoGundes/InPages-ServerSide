@@ -30,9 +30,5 @@
         "id":8,
         "nome": "Design",
         "descricao": "Criação de interfaces e experiências visuais."
-    },{
-        "id":9,
-        "nome": "Marketing",
-        "descricao": "Estratégias de promoção e venda de produtos."
     }
 ]
