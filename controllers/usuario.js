@@ -23,7 +23,13 @@ function seguirUsuario(req, res) {
     if (!usuario.seguidos.includes(seguirEmail)) usuario.seguidos.push(seguirEmail);
     if (!usuarioASeguir.seguidores.includes(email)) usuarioASeguir.seguidores.push(email);
     fs.writeFileSync(usuariosPath, JSON.stringify(usuarios, null, 2));
-    res.status(200).send('Agora você está seguindo este usuário');
+    
+    // Retorna o usuário atualizado sem a senha
+    const { senha, ...usuarioAtualizado } = usuario;
+    res.status(200).json({
+        message: 'Agora você está seguindo este usuário',
+        usuario: usuarioAtualizado
+    });
 }
 
 // Deixar de seguir usuário
@@ -41,7 +47,13 @@ function deixarDeSeguirUsuario(req, res) {
     usuario.seguidos = usuario.seguidos.filter(e => e !== seguirEmail);
     usuarioASeguir.seguidores = usuarioASeguir.seguidores.filter(e => e !== email);
     fs.writeFileSync(usuariosPath, JSON.stringify(usuarios, null, 2));
-    res.status(200).send('Você deixou de seguir este usuário');
+    
+    // Retorna o usuário atualizado sem a senha
+    const { senha, ...usuarioAtualizado } = usuario;
+    res.status(200).json({
+        message: 'Você deixou de seguir este usuário',
+        usuario: usuarioAtualizado
+    });
 }
 const fs = require('fs');
 const path = require('path');
@@ -121,6 +133,36 @@ function removeFavoritoUsuario(req, res) {
     res.status(200).send('Favorito removido');
 }
 
+// Buscar seguidores de um usuário
+function getSeguidores(req, res) {
+    const { email } = req.params;
+    const usuarios = JSON.parse(fs.readFileSync(usuariosPath));
+    const usuario = usuarios.find(u => u.email === email);
+    if (!usuario) return res.status(404).send('Usuário não encontrado');
+    
+    const seguidores = usuario.seguidores || [];
+    const seguidoresDetalhados = usuarios
+        .filter(u => seguidores.includes(u.email))
+        .map(u => ({ nome: u.nome, email: u.email }));
+    
+    res.status(200).json(seguidoresDetalhados);
+}
+
+// Buscar usuários que um usuário está seguindo
+function getSeguidos(req, res) {
+    const { email } = req.params;
+    const usuarios = JSON.parse(fs.readFileSync(usuariosPath));
+    const usuario = usuarios.find(u => u.email === email);
+    if (!usuario) return res.status(404).send('Usuário não encontrado');
+    
+    const seguidos = usuario.seguidos || [];
+    const seguidosDetalhados = usuarios
+        .filter(u => seguidos.includes(u.email))
+        .map(u => ({ nome: u.nome, email: u.email }));
+    
+    res.status(200).json(seguidosDetalhados);
+}
+
 module.exports = {
     cadastrarUsuario,
     loginUsuario,
@@ -130,5 +172,7 @@ module.exports = {
     removeFavoritoUsuario,
     seguirUsuario,
     deixarDeSeguirUsuario,
-    listarUsuarios
+    listarUsuarios,
+    getSeguidores,
+    getSeguidos
 };

@@ -8,6 +8,7 @@ const rotaLivrosLidos = require("./rotas/livrosLidos")
 
 const rotaReviews = require("./rotas/Reviews")
 const rotaPostagem = require("./rotas/postagem")
+const rotaComentario = require("./rotas/comentario")
 
 
 const app = express()
@@ -22,6 +23,7 @@ app.use('/livros-lidos', rotaLivrosLidos)
 
 app.use('/reviews', rotaReviews)
 app.use('/postagens', rotaPostagem)
+app.use('/comentarios', rotaComentario)
 
 const port = 8000
 

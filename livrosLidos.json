@@ -29,5 +29,45 @@
     "thumbnail": "http://books.google.com/books/content?id=jD8iswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "usuario": "leogundes18@gmail.com",
     "dataLeitura": "2025-09-03T19:18:13.034Z"
+  },
+  {
+    "id": "jD8iswEACAAJ",
+    "title": "Cracking the Coding Interview",
+    "authors": [
+      "Gayle Laakmann McDowell"
+    ],
+    "thumbnail": "http://books.google.com/books/content?id=jD8iswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "usuario": "leogundes18@gmail.com",
+    "dataLeitura": "2025-09-05T13:26:50.657Z"
+  },
+  {
+    "id": "658658812X",
+    "title": "O Idiota",
+    "authors": [
+      "Fiódor Dostoiévski"
+    ],
+    "thumbnail": "http://books.google.com/books/content?id=5_nXzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "usuario": "leogundes18@gmail.com",
+    "dataLeitura": "2025-09-05T17:39:16.921Z"
+  },
+  {
+    "id": "658658812X",
+    "title": "O Idiota",
+    "authors": [
+      "Fiódor Dostoiévski"
+    ],
+    "thumbnail": "http://books.google.com/books/content?id=5_nXzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "usuario": "leonardocark@gmail.com",
+    "dataLeitura": "2025-09-05T19:38:31.926Z"
+  },
+  {
+    "id": "9788575226629",
+    "title": "Entendendo Algoritmos",
+    "authors": [
+      "Aditya Y. Bhargava"
+    ],
+    "thumbnail": "http://books.google.com/books/content?id=t5RODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "usuario": "leonardocark@gmail.com",
+    "dataLeitura": "2025-09-05T19:46:27.485Z"
   }
 ]

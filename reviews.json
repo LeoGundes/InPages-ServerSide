@@ -38,5 +38,37 @@
     "texto": "achei basico",
     "nota": 3,
     "data": "2025-09-02T14:31:07.243Z"
+  },
+  {
+    "id": "1757083215805",
+    "livroId": "google_djG552fTNb8C",
+    "usuario": "leogundes18@gmail.com",
+    "texto": "Livro essencial para dev",
+    "nota": 5,
+    "data": "2025-09-05T14:40:15.805Z"
+  },
+  {
+    "id": "1757083342212",
+    "livroId": "google_p97eDwAAQBAJ",
+    "usuario": "leonardocark@gmail.com",
+    "texto": "Livro muito bom para aprender a refatorar um código já existente",
+    "nota": 5,
+    "data": "2025-09-05T14:42:22.212Z"
+  },
+  {
+    "id": "1757097093368",
+    "livroId": "google_Lf0wDwAAQBAJ",
+    "usuario": "leonardocark@gmail.com",
+    "texto": "Gostei do livro",
+    "nota": 5,
+    "data": "2025-09-05T18:31:33.368Z"
+  },
+  {
+    "id": "1757100325139",
+    "livroId": "google_t5RODwAAQBAJ",
+    "usuario": "leogundes18@gmail.com",
+    "texto": "Um ótimo livro introdutório de como funcionam os principais algoritmos usados. Recomendo!",
+    "nota": 5,
+    "data": "2025-09-05T19:25:25.140Z"
   }
 ]

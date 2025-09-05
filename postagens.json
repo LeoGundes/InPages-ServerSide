@@ -1,9 +1,28 @@
 [
   {
+    "id": "1757100325180",
+    "email": "leogundes18@gmail.com",
+    "nome": "Leonardo",
+    "conteudo": "📖 Review: \"Entendendo Algoritmos\"\n\nUm ótimo livro introdutório de como funcionam os principais algoritmos usados. Recomendo!\n\n⭐ Nota: 5/5",
+    "data": "2025-09-05T19:25:25.180Z",
+    "tipo": "review",
+    "livro": "Entendendo Algoritmos",
+    "nota": 5,
+    "capaLivro": "http://books.google.com/books/content?id=t5RODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "curtidas": [
+      "leogundes18@gmail.com",
+      "leonardocark@gmail.com"
+    ]
+  },
+  {
     "id": "1756836951669",
     "email": "leogundes18@gmail.com",
     "nome": "Leonardo",
     "conteudo": "Acabei de ler um livro da stack node.js. Muito bom!",
-    "data": "2025-09-02T18:15:51.669Z"
+    "data": "2025-09-02T18:15:51.669Z",
+    "curtidas": [
+      "leonardocark@gmail.com",
+      "leogundes18@gmail.com"
+    ]
   }
 ]
